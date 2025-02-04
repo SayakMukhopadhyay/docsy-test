@@ -1,6 +1,10 @@
 baseURL: https://example.docsy.dev
 title: Goldydocs
 
+theme:
+  - "docsy"
+themesDir: "node_modules"
+
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
 # Language settings
@@ -208,13 +212,3 @@ params:
         url: https://example.org/mail
         icon: fa fa-envelope
         desc: Discuss development issues around the project
-
-module:
-  # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
-  # workspace: docsy.work
-  hugoVersion:
-    extended: true
-    min: 0.110.0
-  imports:
-    - path: github.com/google/docsy
-      disable: false
