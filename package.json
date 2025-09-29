@@ -11,7 +11,7 @@
   "spelling": "cSpell:ignore docsy hugo htmltest precheck postbuild rtlcss -",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.1.0",
     "docsy": "github:google/docsy#v0.11.0",
     "postcss-cli": "^11.0.0",
     "rtlcss": "^4.3.0"
